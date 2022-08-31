@@ -31,6 +31,14 @@ For a couple of projects you'll also need:
 * [Geolite2++](https://www.ccoderun.ca/GeoLite2++/api/usage.html)
 * [libmaxminddb](https://github.com/maxmind/libmaxminddb)
 
+Kali Linux install:
+```
+sudo apt-get install cmake libboost-all-dev libgeoip-dev
+wget https://www.ccoderun.ca/GeoLite2PP/download/geolite2++-0.0.1-2561-amd-64.deb
+sudo dpkg -i geolite2++-0.0.1-2561-amd-64.deb
+sudo apt-get install libmaxminddb-dev
+```
+
 Each project should contain specific instructions but, in general, the following should be sufficient.
 ```sh
 mkdir build
