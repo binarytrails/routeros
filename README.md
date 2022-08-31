@@ -36,6 +36,8 @@ Kali Linux install:
 sudo apt-get install cmake libboost-all-dev libgeoip-dev
 wget https://www.ccoderun.ca/GeoLite2PP/download/geolite2++-0.0.1-2561-amd-64.deb
 sudo dpkg -i geolite2++-0.0.1-2561-amd-64.deb
+sudo mkdir /var/lib/GeoIP/
+sudo cp /var/lib/king-phisher/GeoLite2-City.mmdb /var/lib/GeoIP/
 sudo apt-get install libmaxminddb-dev
 ```
 
